@@ -20,6 +20,7 @@ https://templatemo.com/tm-567-nomad-force
   --p-color:                      #717275;
 
   --body-font-family:           'Noto Sans JP', sans-serif;
+  --body-font-family:           'Outfit';
 
   --h1-font-size:               72px;
   --h2-font-size:               42px;
@@ -206,7 +207,7 @@ strong {
 }
 
 /*---------------------------------------
-  NAVIGATION               
+  NAVIGATION
 -----------------------------------------*/
 
 .navbar {
@@ -267,7 +268,7 @@ strong {
 }
 
 .navbar-nav .nav-item.active .nav-link,
-.nav-link:focus, 
+.nav-link:focus,
 .nav-link:hover {
   color: var(--dark-color);
 }
@@ -341,6 +342,18 @@ strong {
 .navbar-toggler .navbar-toggler-icon:after {
   top: 8px;
 }
+
+/*.navbar-brand {*/
+/*  margin-right: 7.5%;*/
+/*  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;*/
+/*  -moz-transition: opacity 0.3s, -moz-transform 0.3s;*/
+/*  transition: opacity 0.3s, transform 0.3s;*/
+/*  -webkit-transform: translateY(10px);*/
+/*  -moz-transform: translateY(10px);*/
+/*  transform: translateY(10px);*/
+/*  padding-right: 15px;*/
+/*  padding-left: 15px;*/
+/*}*/
 
 /*---------------------------------------
   HERO              
