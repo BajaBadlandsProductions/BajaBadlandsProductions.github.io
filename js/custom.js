@@ -7,7 +7,8 @@ function isMobile() {
   (function ($) {
   
   "use strict";
-    if (!isMobile()) {
+    // 780...?
+    if (!isMobile() && window.screen.width > 500) {
       // AOS ANIMATIONS
       AOS.init();
     }
