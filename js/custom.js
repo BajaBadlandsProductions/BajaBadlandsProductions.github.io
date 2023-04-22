@@ -1,10 +1,16 @@
 
+
+function isMobile() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+
   (function ($) {
   
   "use strict";
-
-    // AOS ANIMATIONS
-    AOS.init();
+    if (!isMobile()) {
+      // AOS ANIMATIONS
+      AOS.init();
+    }
 
     // NAVBAR
     $('.navbar-nav .nav-link').click(function(){
