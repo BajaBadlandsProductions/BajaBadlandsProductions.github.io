@@ -1,17 +1,10 @@
 
-
-function isMobile() {
-  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-}
-
   (function ($) {
   
   "use strict";
     // 780...?
-    if (!isMobile() && window.screen.width > 500) {
-      // AOS ANIMATIONS
-      AOS.init();
-    }
+    // AOS ANIMATIONS
+    AOS.init({disable: 'mobile'});
 
     // NAVBAR
     $('.navbar-nav .nav-link').click(function(){
