@@ -559,6 +559,18 @@ strong {
   transform: scale(1.02);
 }
 
+.portfolio-image:hover {
+  -webkit-filter: contrast(125%);
+  /*filter: basicImage(repeating-linear-gradient(45deg, violet, indigo, blue, indigo, violet) 100%);*/
+  /*filter: drop-shadow(10px 10px black);*/
+  filter: contrast(125%);
+  /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5),*/
+  /*0 0 25px rgba(0, 0, 0, 0.5),*/
+  /*0 0 50px rgba(0, 0, 0, 0.5),*/
+  /*0 0 75px rgba(0, 0, 0, 0.5);*/
+
+}
+
 .news-two-column {
   min-height: 199px;
   margin-bottom: 16px;
@@ -797,9 +809,9 @@ strong {
   color: transparent;
   background-image: repeating-linear-gradient(45deg, violet, indigo, blue, indigo, violet);
   background-size: 300% 300%;
-  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
   /*0 0 25px rgba(61,129,245,0.5),*/
   /*0 0 50px rgba(61,129,245,0.5),*/
   /*0 0 75px rgba(61,129,245,0.5);*/
