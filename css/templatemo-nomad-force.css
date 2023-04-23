@@ -23,6 +23,10 @@ https://templatemo.com/tm-567-nomad-force
   --backup-color-2:               rgb(90, 60, 60);
   --backup-color-3:               rgb(64, 90, 90);
   --backup-color-4:               rgb(90, 64, 90);
+  --backup-color-1-light:               rgb(110, 111, 140);
+  --backup-color-2-light:               rgb(140, 110, 110);
+  --backup-color-3-light:               rgb(114, 140, 140);
+  --backup-color-4-light:               rgb(140, 140, 114);
 
   --body-font-family:           'Noto Sans JP', sans-serif;
   --body-font-family:           'Outfit';
@@ -769,4 +773,20 @@ strong {
 
 .bg-color-4 {
   background-color: var(--backup-color-4);
+}
+
+.text-color-1 {
+  color: var(--backup-color-1-light);
+}
+
+.text-color-2 {
+  color: var(--backup-color-2-light);
+}
+
+.text-color-3 {
+  color: var(--backup-color-3-light);
+}
+
+.text-color-4 {
+  color: var(--backup-color-4-light);
 }
