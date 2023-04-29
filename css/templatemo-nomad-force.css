@@ -883,3 +883,9 @@ strong {
     background-position-y: 50%;
   }
 }
+
+.contact-footer {
+  line-height: 30px;
+  margin: -10px;
+
+}
