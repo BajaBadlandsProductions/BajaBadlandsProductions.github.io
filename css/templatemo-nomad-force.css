@@ -136,6 +136,12 @@ a:hover {
   color: var(--primary-color);
 }
 
+iframe {
+  aspect-ratio: 16 / 9;
+  height: 100%;
+  width: 100%;
+}
+
 ::selection {
   background: var(--dark-color);
   color: var(--white-color);
@@ -661,6 +667,7 @@ strong {
   display: block;
   filter: grayscale(100);
 }
+
 
 /*---------------------------------------
   SITE FOOTER               
