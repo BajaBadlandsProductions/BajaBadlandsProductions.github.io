@@ -34,16 +34,31 @@
 
         <link href="css/aos.css" rel="stylesheet">
 
-        <link href="css/templatemo-nomad-force.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
 
         <link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Outfit">
-<!--
 
-TemplateMo 567 Nomad Force
+        <script type="text/javascript">
+            // $lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
+            document.getElementById("lang").innerHTML = "aklsjdkla";
+            function Test() {
+                // location.href="https://bbadlands.com/ads"
+                // $lang = $_SERVER['HTTP_ACCEPT_LANGUAGE'];
 
-https://templatemo.com/tm-567-nomad-force
-
--->
+                $(document).ajax({
+                    url: "http://ajaxhttpheaders.appspot.com",
+                    dataType: 'jsonp',
+                    success: function(headers) {
+                        language = headers['Accept-Language'];
+                        FindLang(language);
+                    }
+                });
+            }
+            function FindLang(lang) {
+                let x = "aksldjsa"
+                document.getElementById("lang").innerHTML = x;
+            }
+        </script>
     </head>
     
     <body>
@@ -467,6 +482,7 @@ https://templatemo.com/tm-567-nomad-force
         </footer>
 
         <!-- JAVASCRIPT FILES -->
+<!--        <script src="js/language.js"></script>-->
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
@@ -475,6 +491,17 @@ https://templatemo.com/tm-567-nomad-force
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/scrollspy.min.js"></script>
         <script src="js/custom.js"></script>
+
+        <script type="text/javascript">
+            $(window).on('load', Test());
+            // document.getElementById("lang").innerHTML = "aklsjdkla";
+            function Test() {
+                var language = window.navigator.userLanguage || window.navigator.language;
+                if (language.toLowerCase().includes('es')) {
+                    location.href = "https://bbadlands.com/es"
+                }
+            }
+        </script>
 
     </body>
 </html>
