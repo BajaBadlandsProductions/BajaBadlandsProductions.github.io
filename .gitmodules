@@ -1,0 +1,6 @@
+[submodule "en/about-us/orlando"]
+	path = en/about-us/orlando
+	url = https://github.com/Andethy/portfolio-orlando.git
+[submodule "en/about-us/jack"]
+	path = en/about-us/jack
+	url = https://github.com/Andethy/andethy.github.io.git
